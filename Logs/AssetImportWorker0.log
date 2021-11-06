@@ -1,0 +1,458 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.5f1 (8095aa901b9b) revision 8426922'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'uk' Physical Memory: 16057 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Craycentel/Documents/GitHub/AR
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55752
+Successfully changed project path to: C:/Users/Craycentel/Documents/GitHub/AR
+C:/Users/Craycentel/Documents/GitHub/AR
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 45.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Craycentel/Documents/GitHub/AR/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics (ID=0x152)
+    Vendor:   
+    VRAM:     224 MB
+    Driver:   10.18.10.4252
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002919 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 43.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.637 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001112 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ARLocation]: Starting up!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at H:/Unity/AR/Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: H:/Unity/AR/Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
+
+[ARLocation]: Resource folder already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at H:/Unity/AR/Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: H:/Unity/AR/Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
+
+[ARLocation]: Config already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at H:/Unity/AR/Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: H:/Unity/AR/Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.295 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1516 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.6 MB.
+System memory in use after: 69.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1957.
+Total: 2.720900 ms (FindLiveObjects: 0.328600 ms CreateObjectMapping: 0.084300 ms MarkObjects: 2.191400 ms  DeleteObjects: 0.114200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/ARLocation/ARLocationConfig.asset
+  artifactKey: Guid(6a964cb8537badb4392eada7083e66c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/ARLocationConfig.asset using Guid(6a964cb8537badb4392eada7083e66c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02969f0ab5051216bb1a87aa80bcc8b1') in 0.072699 seconds
+  Import took 0.075909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Resources/ARLocationConfig.asset
+  artifactKey: Guid(55775dfb1fccb0548a3c40aa3cebb626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ARLocationConfig.asset using Guid(55775dfb1fccb0548a3c40aa3cebb626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be574d865d76e3cdd5dd135fba41bd29') in 0.006336 seconds
+  Import took 0.011760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.988325 seconds.
+  path: Assets/SpaceFighter/Materials/Glass.mat
+  artifactKey: Guid(6edbf735fdad0914b8f94b848c3e47e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Materials/Glass.mat using Guid(6edbf735fdad0914b8f94b848c3e47e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84a5700b843669462314986add670b7') in 0.160415 seconds
+  Import took 0.165004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/SpaceFighter/Materials/Helium3.mat
+  artifactKey: Guid(e279c30a1e087ea4d86c41786b508b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Materials/Helium3.mat using Guid(e279c30a1e087ea4d86c41786b508b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75852de243dd5f279fdd06c895edfbe') in 0.635880 seconds
+  Import took 0.639085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/SpaceFighter/Materials/SpacefighterMain.mat
+  artifactKey: Guid(aa0a86833ffb9434084a0dcaf9caab4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Materials/SpacefighterMain.mat using Guid(aa0a86833ffb9434084a0dcaf9caab4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dfeb0d5ff91a21ea62a89b8f2445e74') in 0.615168 seconds
+  Import took 0.619451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/SpaceFighter/Materials/SpaceFighterWings.mat
+  artifactKey: Guid(4aeb4f9daf524ac4ead73a080ff83792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Materials/SpaceFighterWings.mat using Guid(4aeb4f9daf524ac4ead73a080ff83792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eed06ab6c3a5695df58b8333adf12ae') in 0.558246 seconds
+  Import took 0.563268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/SpaceFighter/Meshes/warhead_LOD2.fbx
+  artifactKey: Guid(18107e17ef1c3e644aa61aef308f6759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Meshes/warhead_LOD2.fbx using Guid(18107e17ef1c3e644aa61aef308f6759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f966c3c7efbecee5f31101d429fb583') in 1.374699 seconds
+  Import took 1.381551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/SpaceFighter/Meshes/helium3_LOD1.fbx
+  artifactKey: Guid(49414629a2f942444b3f8d431ba20873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Meshes/helium3_LOD1.fbx using Guid(49414629a2f942444b3f8d431ba20873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da0b9dc2bfeddc35bd510aa8eaedebcc') in 0.392928 seconds
+  Import took 0.396401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/SpaceFighter/Materials/rocket_launcher.mat
+  artifactKey: Guid(9dc74f0ca5de04c43a429ede8bd29a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Materials/rocket_launcher.mat using Guid(9dc74f0ca5de04c43a429ede8bd29a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14bf564a6732d501db4043a414ce5992') in 0.241263 seconds
+  Import took 0.244725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/SpaceFighter/Meshes/spacefighter_LOD0.obj
+  artifactKey: Guid(4534dec104be08e418b20ba5844a0390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Meshes/spacefighter_LOD0.obj using Guid(4534dec104be08e418b20ba5844a0390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39c440828ffc9d026dfa080c28ed36a') in 1.292521 seconds
+  Import took 1.299311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/SpaceFighter/Materials/Rocket.mat
+  artifactKey: Guid(66f483a7e048c534f88fabe727753605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Materials/Rocket.mat using Guid(66f483a7e048c534f88fabe727753605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff706b9ad3bccef116a954551c9e9977') in 0.401405 seconds
+  Import took 0.405118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/SpaceFighter/Meshes/warhead.fbx
+  artifactKey: Guid(7540f4251c32ab2429bd5860349c40ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Meshes/warhead.fbx using Guid(7540f4251c32ab2429bd5860349c40ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a181c146e263f2cfa8ed06c570654ec') in 0.340346 seconds
+  Import took 0.343698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/SpaceFighter/Meshes/warhead_LOD1.fbx
+  artifactKey: Guid(e133913c7941e994e830a44b62878469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Meshes/warhead_LOD1.fbx using Guid(e133913c7941e994e830a44b62878469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33feff131ad83a3d53e388c630f204b3') in 0.339977 seconds
+  Import took 0.343396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/SpaceFighter/Meshes/helium3.fbx
+  artifactKey: Guid(90aeaa8a39076a8479f8d3366415a53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Meshes/helium3.fbx using Guid(90aeaa8a39076a8479f8d3366415a53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895b1420be8e6d1c20b006d93e17a3dd') in 0.345189 seconds
+  Import took 0.348306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.111417 seconds.
+  path: Assets/SpaceFighter/Textures/Glass_Base_Color.tif
+  artifactKey: Guid(135fe01ce17096f4f8e7e2c49b202aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Textures/Glass_Base_Color.tif using Guid(135fe01ce17096f4f8e7e2c49b202aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022eeff1c012fed387ce928563b56dc7') in 0.039452 seconds
+  Import took 0.043259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/SpaceFighter/Textures/spacefighter_SpacefighterMain_Normal.png
+  artifactKey: Guid(ecec5e46bf89e5b4aab02e312208029c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Textures/spacefighter_SpacefighterMain_Normal.png using Guid(ecec5e46bf89e5b4aab02e312208029c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ed723a24fdb2b149293be060b9fc1e') in 0.124610 seconds
+  Import took 0.127706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/SpaceFighter/Textures/spacefighter_SpaceFighterWings_AlbedoTransparency.png
+  artifactKey: Guid(8515b21e30829e643ab74580e81194f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Textures/spacefighter_SpaceFighterWings_AlbedoTransparency.png using Guid(8515b21e30829e643ab74580e81194f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ef43f9ae8103f88a7e718c3294ed13') in 0.284352 seconds
+  Import took 0.287444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/SpaceFighter/Textures/spacefighter_Helium3_AlbedoTransparency.png
+  artifactKey: Guid(1178d9acedda49747bcb553d4c589837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Textures/spacefighter_Helium3_AlbedoTransparency.png using Guid(1178d9acedda49747bcb553d4c589837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a836f71acd0b0dee7af755ba31d6b8') in 0.086924 seconds
+  Import took 0.090301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/SpaceFighter/Textures/spacefighter_SpaceFighterWings_Normal.png
+  artifactKey: Guid(6afeec291f60d0b42a9051fdcacd25ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Textures/spacefighter_SpaceFighterWings_Normal.png using Guid(6afeec291f60d0b42a9051fdcacd25ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c466e39232589106e2966b0ad0ac8f6d') in 0.091928 seconds
+  Import took 0.095212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/SpaceFighter/Textures/spacefighter_Rocket_AlbedoTransparency.png
+  artifactKey: Guid(b1ef127e0c5bf8a46935fe52d46fd649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Textures/spacefighter_Rocket_AlbedoTransparency.png using Guid(b1ef127e0c5bf8a46935fe52d46fd649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c733a72868d116c1b4ed42fd8e9fbbd') in 0.085811 seconds
+  Import took 0.089334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/SpaceFighter/Textures/spacefighter_rocket_launcher_Normal.png
+  artifactKey: Guid(b1118208439084647a29a91a43bdb01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Textures/spacefighter_rocket_launcher_Normal.png using Guid(b1118208439084647a29a91a43bdb01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8bc5becfc6fb504ba539e90d46844da') in 0.091814 seconds
+  Import took 0.094936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/SpaceFighter/Textures/spacefighter_Helium3_MetallicSmoothness.png
+  artifactKey: Guid(471ecf2d00c38444da51e2e501fd4207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Textures/spacefighter_Helium3_MetallicSmoothness.png using Guid(471ecf2d00c38444da51e2e501fd4207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff6f0455d2c675c42b68c615caee6b4') in 0.114462 seconds
+  Import took 0.118073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/SpaceFighter/Textures/spacefighter_SpacefighterMain_AlbedoTransparency.png
+  artifactKey: Guid(79278e2cfa084ff479de4d7bbcdcf9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Textures/spacefighter_SpacefighterMain_AlbedoTransparency.png using Guid(79278e2cfa084ff479de4d7bbcdcf9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457346f4c68e51e113dde484e11f9ad4') in 0.294754 seconds
+  Import took 0.297904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/SpaceFighter/Textures/spacefighter_rocket_launcher_MetallicSmoothness.png
+  artifactKey: Guid(2679b105f6e45e8489c190ecaff549e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Textures/spacefighter_rocket_launcher_MetallicSmoothness.png using Guid(2679b105f6e45e8489c190ecaff549e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ed6c593aa0d1ae17ad5a39c065c42d') in 0.131694 seconds
+  Import took 0.135215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/SpaceFighter/Textures/spacefighter_Helium3_Normal.png
+  artifactKey: Guid(b703859ec0dd1fd42893884c90568f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Textures/spacefighter_Helium3_Normal.png using Guid(b703859ec0dd1fd42893884c90568f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81eaceb16999b2527526db7f308906d8') in 0.084079 seconds
+  Import took 0.087505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/SpaceFighter/Textures/spacefighter_Glass_Normal.png
+  artifactKey: Guid(fb3d9fae6b880674183f8498a663617a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Textures/spacefighter_Glass_Normal.png using Guid(fb3d9fae6b880674183f8498a663617a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8876e4eab9e9f43e0b69090e09bfd8') in 0.046313 seconds
+  Import took 0.049385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/SpaceFighter/Textures/spacefighter_Rocket_Normal.png
+  artifactKey: Guid(311ad3c8bb7128a459bb9e131320ab94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Textures/spacefighter_Rocket_Normal.png using Guid(311ad3c8bb7128a459bb9e131320ab94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d4ea71836990e9296f7c55eeddb2f3') in 0.084309 seconds
+  Import took 0.087688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/SpaceFighter/Textures/spacefighter_SpacefighterMain_Emission.png
+  artifactKey: Guid(21628a1f71b2b034f8a182208e92d433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Textures/spacefighter_SpacefighterMain_Emission.png using Guid(21628a1f71b2b034f8a182208e92d433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf0da6be482f2cf459d9f1c4ce6e004') in 0.087537 seconds
+  Import took 0.091190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/SpaceFighter/Textures/spacefighter_SpaceFighterWings_MetallicSmoothness.png
+  artifactKey: Guid(6cd763d96f3b0a74c9b1fd55017f5300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Textures/spacefighter_SpaceFighterWings_MetallicSmoothness.png using Guid(6cd763d96f3b0a74c9b1fd55017f5300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1199dcc32ae6ab06991ebf6487ff9ee1') in 0.118779 seconds
+  Import took 0.122558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/SpaceFighter/Textures/spacefighter_Rocket_MetallicSmoothness.png
+  artifactKey: Guid(e3b16449759628d45956296272424259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Textures/spacefighter_Rocket_MetallicSmoothness.png using Guid(e3b16449759628d45956296272424259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc0dd62b7ff1f72c3a6d3b6b72e2942') in 0.111741 seconds
+  Import took 0.115554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/SpaceFighter/Textures/spacefighter_SpaceFighterWings_Emission.png
+  artifactKey: Guid(cba26c0f536b4664c93b506683f037df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Textures/spacefighter_SpaceFighterWings_Emission.png using Guid(cba26c0f536b4664c93b506683f037df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5dd9ca2d39d47c69f45a232414282a9') in 0.089601 seconds
+  Import took 0.092590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/SpaceFighter/Textures/spacefighter_Rocket_Emission.png
+  artifactKey: Guid(9bec8a8ca3e0f5743b7b6a9c9d67b3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Textures/spacefighter_Rocket_Emission.png using Guid(9bec8a8ca3e0f5743b7b6a9c9d67b3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ebab03270852870d38a28765dd60e0') in 0.080849 seconds
+  Import took 0.084215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/SpaceFighter/Textures/spacefighter_rocket_launcher_AlbedoTransparency.png
+  artifactKey: Guid(a0a8bae7cb4062147ada9b9913a8298e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Textures/spacefighter_rocket_launcher_AlbedoTransparency.png using Guid(a0a8bae7cb4062147ada9b9913a8298e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614c7cc8549ce38d16091d9e9cdbdfdd') in 0.098955 seconds
+  Import took 0.102883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/SpaceFighter/Textures/spacefighter_SpacefighterMain_MetallicSmoothness.png
+  artifactKey: Guid(35c58d601d5092f4699946d94e8214e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Textures/spacefighter_SpacefighterMain_MetallicSmoothness.png using Guid(35c58d601d5092f4699946d94e8214e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71cfb951069c54efdac7f28c265d9062') in 0.121679 seconds
+  Import took 0.124949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/SpaceFighter/Textures/spacefighter_Helium3_Emission.png
+  artifactKey: Guid(8008f349a28a57b43ad1962ad204fb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Textures/spacefighter_Helium3_Emission.png using Guid(8008f349a28a57b43ad1962ad204fb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5654542f3c9f870c6da622a96cb17319') in 0.083554 seconds
+  Import took 0.087652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.171192 seconds.
+  path: Assets/SpaceFighter/Meshes/New Prefab.prefab
+  artifactKey: Guid(d03790af1fc235848aac658fea806d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Meshes/New Prefab.prefab using Guid(d03790af1fc235848aac658fea806d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e152f23abdb07a73f17e3614bca5c475') in 0.016572 seconds
+  Import took 0.020991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007098 seconds.
+  path: Assets/SpaceFighter/Meshes/New Prefab.prefab
+  artifactKey: Guid(d03790af1fc235848aac658fea806d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Meshes/New Prefab.prefab using Guid(d03790af1fc235848aac658fea806d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e152f23abdb07a73f17e3614bca5c475') in 0.006996 seconds
+  Import took 0.011027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.936862 seconds.
+  path: Assets/SpaceFighter/Meshes
+  artifactKey: Guid(cd576b75a5e2d3f4292bf59a95d67446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Meshes using Guid(cd576b75a5e2d3f4292bf59a95d67446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '071949437b0d3cb4090d8de53452ed0e') in 0.010209 seconds
+  Import took 0.014236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.323432 seconds.
+  path: Assets/SpaceFighter/Meshes/spacefighter_LOD0 Variant.prefab
+  artifactKey: Guid(3743bb3edca19d74b9945be2d21c5831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceFighter/Meshes/spacefighter_LOD0 Variant.prefab using Guid(3743bb3edca19d74b9945be2d21c5831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28c3e867ab620b84f6da093041df3bb') in 1.402955 seconds
+  Import took 1.413744 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 43.0 MB.
+System memory in use after: 43.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2004.
+Total: 6.292800 ms (FindLiveObjects: 0.502200 ms CreateObjectMapping: 0.352700 ms MarkObjects: 5.341000 ms  DeleteObjects: 0.093900 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.14 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.9 MB.
+System memory in use after: 43.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2004.
+Total: 4.007100 ms (FindLiveObjects: 0.340600 ms CreateObjectMapping: 0.149300 ms MarkObjects: 3.444000 ms  DeleteObjects: 0.070800 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.9 MB.
+System memory in use after: 43.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2004.
+Total: 4.416100 ms (FindLiveObjects: 0.453300 ms CreateObjectMapping: 0.189100 ms MarkObjects: 3.681300 ms  DeleteObjects: 0.088800 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.9 MB.
+System memory in use after: 43.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2004.
+Total: 2.937000 ms (FindLiveObjects: 0.203600 ms CreateObjectMapping: 0.070300 ms MarkObjects: 2.591100 ms  DeleteObjects: 0.067900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
